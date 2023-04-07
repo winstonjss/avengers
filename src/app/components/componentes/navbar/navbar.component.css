@@ -1,0 +1,21 @@
+/*Color navbar*/
+.custom-bg {
+  background-color: #202020;
+}
+
+/*Color secundario*/
+.secundary-bg {
+  background-color: #ff0000e8  !important;
+}
+
+/*Color letra*/
+.navbar-nav .nav-link{
+  color: white !important;
+}
+.secundary-bg{
+  color: white;
+}
+.navbar-brand {
+  color: white !important;
+}
+
