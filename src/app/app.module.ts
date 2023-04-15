@@ -20,6 +20,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatGridListModule} from '@angular/material/grid-list';
 
+//servicios
+import { HeroesService } from './servicios/heroes.service';
 
 
 @NgModule({
@@ -30,7 +32,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     NosotrosComponent,
     HistoriaComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatGridListModule,
     APP_ROUTING
     ],
-  providers: [],
+  providers: [HeroesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
